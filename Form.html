@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Example</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h2> Form </h2>
+    <p></p>
+    
+    <h2>Text Input</h2>
+
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname" name="firstname">
+            <br><br>
+
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname">
+            <br><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age">
+            <br><br>
+
+            <label for="gmail">Gmail:</label><br>
+            <input type="email" id="gmail" name="gmail">
+            <br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male" checked><label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female"><label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="Other"><label for="other">Other</label><br>
+            <br>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="50"></textarea><br>
+            <br>
+
+            <label for="state">State:</label><br>
+            <select id="state" name="state">
+                <option value="GOA">GOA</option>
+                <option value="MP">MP</option>
+                <option value="MH">MH</option>
+                <option value="GJ">GJ</option>
+                <option value="UP">UP</option>
+            </select>
+            <br><br>
+
+            <label for="terms">Terms & Conditions:</label>
+            <input type="checkbox" id="terms" name="terms" value="Terms & Conditions" checked><br><br>
+
+            Enter your Domain:
+            <select name="domain" size="3" multiple>
+                <option value="AI-ML">AI-Ml</option>
+                <option value="Cyber Security">Cyber Security</option>
+                <option value="Data Analyst">Data Analyst</option>
+                <option value="Backend">Backend</option>
+                <option value="hum pe to hai hi na" selected>Hum pe to hai hi na</option>
+            </select><br><br>
+
+            <label for="browsers">Choose a browser:</label>
+            <input list="browsers" name="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist><br><br>
+
+            <input type="submit">
+
+        </fieldset>
+    </form>
+
+</body>
+</html>

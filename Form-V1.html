@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title style="text-align: center;">User Registration Form</title>
+
+    <style>
+        
+        h1{
+            text-align: center;
+        }
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(86, 238, 3, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-size: 16px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        input[type="checkbox"],
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        select[multiple] {
+            height: auto;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <body style="background-image: url('https://i.pinimg.com/564x/43/c5/ef/43c5ef10a2ddd63c2c76a00ea75f349e.jpg');background-size:cover">
+        
+
+    <form>
+              <h1> Collage Enquiry Form </h1>
+
+        <fieldset>
+            
+
+
+            <br>
+            <h3><label for="firstname">First Name:</label ></h3>
+            <input type="text" id="firstname" name="firstname" placeholder="Eg : John " required>
+
+            <h3><label for="lastname">Last Name:</label></h3>
+            <input type="text" id="lastname" name="lastname" placeholder="Singh">
+
+            <h3><label for="age">Age:</label></h3>
+            <input type="number" id="age" name="age" placeholder="Enter Your Age ">
+
+            <label for="gmail">Gmail:</label>
+            <input type="gmail" id="gmail" name="gmail" placeholder="Enter Your Email">
+            
+
+            <label for="Mobile No.">Mobile No.:</label>
+            <input type="Mobile No" id="Mobile No" name="Mobile No" placeholder="+919221345523">
+
+            Gender:
+            <input type="radio" name="gender" value="male" checked="checked">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+            <hr>
+            </div>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" cols="50"></textarea>
+
+            State:
+            <input list="State" name="State" style="width: 100%;padding:8px;margin:5px 0;box-sizing:border-box;border:1px solid #ccc;border-radius:4px;" required>
+            <datalist id="State" >
+                <option value="Andhra Pradesh">
+                <option value="Arunachal Pradesh">
+                <option value="Assam">
+                <option value="Bihar">
+                <option value="Chhattisgarh">
+                <option value="Goa">
+                <option value="Haryana">
+                <option value="Himachal Pradesh">
+                <option value="Jharkhand">
+                <option value="Karnataka">
+                <option value="Madhya Pradesh">
+                <option value="Maharashtra">
+                <option value="Manipur">
+                <option value="Meghalaya">
+                <option value="Mizoram">
+                <option value="Nagaland">
+                <option value="Odisha">
+                <option value="Punjab">
+                <option value="Rajasthan">
+                <option value="Sikkim">
+                <option value="Tamil Nadu">
+                <option value="Telangana">
+                <option value="Tripura">
+                <option value="Uttar Pradesh">
+                <option value="Uttarakhand">
+                <option value="West Bengal">
+                <option value="Seawoods-Darave" >
+            </datalist><br><br>
+
+            <label for="browsers">Choose a browser:</label>
+            <input list="browsers" name="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+
+            <br>
+            <label for="terms">Terms & Conditions:</label><br>
+            <input type="checkbox" id="terms" name="terms" value="Terms & Conditions" >
+
+            <div style="text-align: center;">
+                <button type="submit">Submit</button>
+              </div>
+              <br>
+
+            
+
+            
+              
+        </fieldset>
+    </form>
+
+</body>
+</html>
